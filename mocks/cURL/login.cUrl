@@ -1,0 +1,7 @@
+curl --location 'http://localhost:8080/api/login' \
+--header 'Authorization: 1234' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "Username": "john",
+    "Password": "Password@1"
+}'
